@@ -77,7 +77,7 @@ HEEDS を新規作成するときは、まずこの表どおりに作るのが�
 プログラムが見るのは、`.env` のこの 1 行だけです。
 
 ```dotenv
-HEEDS_PROJECT_PATH=C:/Users/masaki/Documents/python-projects/20261001_HEEDS-Chat/HEEDS_PROJECT/MyProject.heeds
+HEEDS_PROJECT_PATH=C:/Users/masaki/Documents/python-projects/20261001_HEEDS-Chat-levels-not-aligned/HEEDS_PROJECT/MyProject.heeds
 ```
 
 気をつけること:

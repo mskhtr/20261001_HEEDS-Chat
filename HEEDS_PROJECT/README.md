@@ -13,7 +13,7 @@ HEEDS_PROJECT/
 置いたあとは、プロジェクト直下の `.env` にフルパスを書きます。
 
 ```dotenv
-HEEDS_PROJECT_PATH=C:/Users/masaki/Documents/python-projects/20261001_HEEDS-Chat/HEEDS_PROJECT/MyProject.heeds
+HEEDS_PROJECT_PATH=C:/Users/masaki/Documents/python-projects/20261001_HEEDS-Chat-levels-not-aligned/HEEDS_PROJECT/MyProject.heeds
 ```
 
 ファイルを別の場所へ置いても動きます。その場合は、実際の場所を

@@ -189,6 +189,10 @@ sequenceDiagram
 - 実行は `run(results="reuse", wait=True)`。状態が `completed` でなければ追加で待つ
 - ホワイトリスト外の試験 ID は、HEEDS を起動する前にエラーで返る
 
+## 水準はスタディごと
+
+この版は、スタディ間で入力水準をそろえません。CSV の下限・上限・刻みから resolution を計算し、各 Study の変数に min / baseline / max / resolution をセットします。どの点を計算するかは、その Study に設定してある HEEDS の探索が決めます。そのため crash の水準1と固有値の水準1が、同じ板厚・同じ幅とは限りません。入力の組が違う行は、横断表で片方の出力が「—」になります。
+
 ## 共通設定・スコープ外
 
 やらないこと: 解析結果の合否判定、最適化の提案、チャットに書いた数値での範囲変更、AI による試験の選択、AI への任意コマンド、複数同時の HEEDS 起動、POST の Discover / Investigate。

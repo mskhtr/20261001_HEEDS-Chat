@@ -109,7 +109,7 @@ HEEDS でプロジェクトやスタディを作るとき、**表示名を好き
 
 ```dotenv
 HEEDS_EXE=C:/Program Files/Siemens/HEEDS/2504/HEEDSMDO.exe
-HEEDS_PROJECT_PATH=C:/Users/masaki/Documents/python-projects/20261001_HEEDS-Chat/HEEDS_PROJECT/MyProject.heeds
+HEEDS_PROJECT_PATH=C:/Users/masaki/Documents/python-projects/20261001_HEEDS-Chat-levels-not-aligned/HEEDS_PROJECT/MyProject.heeds
 HEEDS_TIMEOUT_SEC=3600
 ```
 
@@ -143,7 +143,7 @@ HEEDS_STUDY_STRESS=Study_stress
 
 ```powershell
 Test-Path "C:\Program Files\Siemens\HEEDS\2504\HEEDSMDO.exe"
-Test-Path "C:\Users\masaki\Documents\python-projects\20261001_HEEDS-Chat\HEEDS_PROJECT\MyProject.heeds"
+Test-Path "C:\Users\masaki\Documents\python-projects\20261001_HEEDS-Chat-levels-not-aligned\HEEDS_PROJECT\MyProject.heeds"
 ```
 
 どちらも `True` であること。`False` ならパスかインストールを直してから次へ進みます。
